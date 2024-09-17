@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.maincontent {
+    flex-direction: column;
+}
 
 main{
     display: flex;
@@ -18,3 +21,4 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
