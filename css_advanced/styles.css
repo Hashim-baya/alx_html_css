@@ -1,0 +1,436 @@
+header {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+nav {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #07162999;
+    margin: auto;
+    padding-top: 10px;
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family:'Source Sans Pro';
+    font-weight: bold;
+    font-style: normal;
+    color :#FFFFFF;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 53px;
+    
+}
+
+.navigation{
+    margin-left: 650px;
+    margin-right: 0;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.habits {
+    display: inline;
+    margin-bottom: 19.920px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.hero_tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    color :#FFFFFF;
+}
+
+button {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight:normal;
+    color:#FFFFFF;
+    background-color:#C271FF ;
+    width: auto;
+    height: auto;
+    border-style: none;
+    border-radius: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pros {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.tutors {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.mentors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+strong {
+    color:#C271FF;
+    font-size: 32px;
+}
+
+.learn_title {
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.hero {
+    background: url(media/Object.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-color: #071629;
+    width: 100vw;
+    height: 100vh;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight:bold ;
+    color: #FFFFFF;
+}
+
+.details {
+    font-size: 18px;
+    font-family:'Source Sans Pro';
+    font-weight: lighter;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.quote {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.quotes {
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    font: weight 400px;
+    height: 68px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.motivation {
+    width: 730px;
+    height: auto;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+
+.weather {
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.articles {
+    background-color: #C271FF;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h6 {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    width: 106px;
+    height: 20px;
+    margin: 0px;
+}
+
+.lorem {
+    width: 242px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    color: #07162980;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.img_1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.philip {
+    width: auto;
+    height: 27px;
+    font: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 15px;
+    text-align: center;
+    color: #C271FF;
+}
+
+.content_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.checked {
+    color:#C271FF;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.membership {
+    background-color: #071629;
+    width: 100vw;
+    padding-bottom: 42.560px;
+}
+
+.ipsum {
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+    width: 256px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    width: 212px;
+    height: 52px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.member {
+    width: auto;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.free_membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.align_rows {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 42.560px;
+}
+
+.faq {
+    width: auto;
+    height: 75px;
+    font-size: 60px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    text-align: center;
+    color: #071629;
+}
+
+.faq_1 {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    width: auto;
+    height: 20px;
+    color: #071629;
+}
+
+.faq_content {
+    width: 350px;
+    height: auto;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+.card_2, .card_3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.card_content {
+    margin-left: 300px;
+}
+
+.tutorials_heading {
+    width: auto;
+    height: 40px;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    text-align: center;
+    color: #071629;
+}
+
+.FAQS {
+    margin-bottom: 42.067px;
+}
+
+.social_icons {
+    margin-left: 600px;
+}
+
+footer {
+    background-color: #071629;
+    width: 100vw;
+    height: auto;
+    padding-top: 42.067px;
+    padding-bottom: 42.067px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    width: auto;
+    height: 15px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    color: #FFFFFF;
+}
