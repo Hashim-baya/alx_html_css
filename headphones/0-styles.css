@@ -6,7 +6,7 @@
 /* Body Section */
 body {
     width : 100%;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 /* Hero Section */
@@ -26,6 +26,10 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.menu {
+    display: none;
 }
 
 nav li {
@@ -97,6 +101,10 @@ button {
     width: auto;
     margin-top: 40px;
     border-style: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
 }
 
 .call_to_action {
@@ -125,3 +133,83 @@ button {
     justify-content: center;
 }
  
+/* Responsivenes */
+/* Tablet */
+
+@media screen and (max-width: 768px){
+    .what_we_do{
+        margin-left: 12vmin;
+    }
+
+    nav {
+        align-items: start;
+    }
+
+   ul > li {
+    margin-left: 0px;
+    margin-right: 4vmin;
+   }
+
+   .hero_section {
+    background-position: center;
+   }
+}
+
+/* Mobile Phones */
+
+@media screen and (max-width: 375px) {
+    .nav_link {
+        display: none;
+    }
+
+    .hero_section {
+        background-position: center center;
+        background-size: cover;
+
+    }
+
+    .logo {
+        width: 161px;
+        height: 32px;
+        margin: 0px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        padding-right: 90px;
+
+    }
+
+    nav {
+        height: auto;
+        justify-content: start;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    nav ul {
+        padding-left: 0%;
+        width: auto;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+    }
+
+    .p_1 {
+        width: 95%;
+        text-align: center;
+    }
+
+    .p_2 {
+        width: 95vw;
+        text-align: center;
+    }
+
+    .p_3 {
+        width: 95%;
+        text-align: center;
+    }
+}
+
