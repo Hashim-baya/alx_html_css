@@ -1,0 +1,57 @@
+@font-face {
+    font-family: myFisrtFont;
+    src: url(headphones/spincycle_3d_ot.otf);
+}
+
+/* Our Results Section */
+
+.our_results{
+    background: url(images/headphones_hero_2.jpg);
+    background-color: #D8D8D8 ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our_results h2 {
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.our_results p {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+    width: 637px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.our_results > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pentagon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vmin;
+    padding-bottom: 50px;
+}
+
+.pentagon img {
+    margin-left: 10vw;
+}
