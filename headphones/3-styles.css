@@ -24,7 +24,7 @@
 }
 
 .contact_us input {
-    width: 335px;
+    width:335px;
     margin-top: 20px;
     height: 2rem;
     border-top: none;
@@ -48,4 +48,17 @@ input::placeholder {
     justify-content: center;
     margin-top: 50px;
     padding-bottom: 50px;
+}
+
+/* Responsive Design */
+/* MObile Devices */
+
+@media screen and ( max-width: 480px) {
+    .inputs {
+        width: 90%;
+    }
+
+    input::placeholder {
+        padding-left: 1rem;
+    }
 }
